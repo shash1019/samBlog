@@ -1,0 +1,159 @@
+body {
+    box-sizing: border-box;
+    
+  }
+
+.flexboxmain{
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flexbox1{
+    display: flex;
+    height: 600px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap ;
+}
+
+.flexbox2{
+    display: flex;
+    height: 600px;
+    width: 600px;
+    flex-direction: column;
+    flex-wrap: wrap ;
+}
+
+
+.fb1_item1{
+    padding-left: 100px;
+    display: flex;
+    justify-content:center;
+    align-items: left;
+    height: 500px;
+    width: 500px;
+}
+
+.samlogo {
+  max-height: 100%;
+  width: 230%;
+}
+
+.social_media{
+    display: flex;
+    max-height: 50px;
+    min-width: 500px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social_media_bar{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    list-style: none;
+    color: #5c6b70;
+}
+
+.sm-item {
+    margin-left: 40px;
+    color: white;
+    font-size: large;
+}
+
+.navbar__link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navsec{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    list-style: none;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar__navigation-item {
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+  
+.navbar__link {
+    text-decoration: none;
+    color: inherit;
+}
+  
+
+   /* this section is for beyond politicd */ 
+
+.navbar_beyond{
+  max-width: 800px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+.navbar__navigation_beyond {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  list-style: none;
+  color: #5c6b70;
+  font-size: 15px;
+  justify-content: space-around;
+}
+
+
+.main {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.form__input {
+  width: 100%;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form__textarea {
+  width: inherit;
+  font-size: 18px;
+  padding: 12px 20px;
+  border: none;
+  background-color: #f3f6f6;
+  margin-bottom: 10px;
+}
+
+.form__submit {
+  background-color: #3cd0ff;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 30px;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.form__submit:hover {
+  background-color: #18c1e1;
+}
